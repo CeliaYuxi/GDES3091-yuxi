@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+hr{
+			border-width: 10px; 
+			
+		}
+		
+		.dotted {
+			border-style: dotted; 
+			border-top-style: none;
+		}
+		
+		.solid {
+			border-style: solid; 
+			border-top-style: none;
+		}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	
+}
+
+.circle {
+	height: 100px;
+	width: 100px;
+	background-color: #7A2C2E;
+	border-radius: 30%;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-width: 50px;
+	border-style: solid;
+	border-color: transparent;
+	border-top: 0;
+	border-bottom: 100px solid black;
+	
+}
+
+.flex {
+	display: flex;
+	gap: 30px;
+}
+
+.blue {
+	background-color: #1889C5;
+	
+}
+
+.purple {
+	background-color: #7247A1
+}
+
+.yellew {
+	background-color: #F3D046;
+	
+}
+
+.red {
+	background-color: #BF2E31;
+}
+
+
+.depth-layering .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.depth-layering .middle {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 2px solid white;
+}
+
+.depth-layering .front {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    border: 2px solid white;
+}
